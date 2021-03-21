@@ -3,7 +3,7 @@
 DATE=`date +%Y-%m-%d`
 BACKUP_FOLDER="/opt/mysql/backup"
 
-if [ ! -d "$BACKUP_FOLDER"]
+if [ ! -d "$BACKUP_FOLDER" ]
 then
     mkdir -p "$BACKUP_FOLDER"
 fi
